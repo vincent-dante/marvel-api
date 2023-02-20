@@ -21,9 +21,7 @@ export default {
   css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    /* { src: '@/plugins/api.js' } */
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -32,7 +30,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxt/postcss8',
     '@nuxtjs/composition-api/module',
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontawesome',
@@ -42,6 +39,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/tailwindcss',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -52,12 +50,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    postcss: {
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-      },
-    },
     extend(config) {
       config.module.rules.push({
         test: /\.mjs$/,
