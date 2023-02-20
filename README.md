@@ -2,7 +2,7 @@
 
 Hi there :wave: this is my personal project using Marvel APIs.
 
-## Live preview:
+## Live preview
 https://marvel-characters-vincentdante.vercel.app/
 
 ## Tech Stacks
