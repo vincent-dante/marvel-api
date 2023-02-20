@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+  background-color: rgb(241 245 249);
+}
+
+.spiderman-animation {
+  position: relative;
+  animation-name: animateSpiderMan;
+  animation-duration: 2s;
+}
+
+.spiderman-sense-animation {
+  fill: #e25050;
+  opacity: 0;
+  animation: animateSpiderManSense 1s linear 2s infinite;
+}
+
+@keyframes animateSpiderMan {
+  0% {
+    top: -600px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes animateSpiderManSense {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
