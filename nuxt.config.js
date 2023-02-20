@@ -65,6 +65,14 @@ export default {
         type: 'javascript/auto',
       })
     },
+    loaders: {
+      sass: {
+        implementation: require('sass'),
+      },
+      scss: {
+        implementation: require('sass'),
+      },
+    },
   },
 
   publicRuntimeConfig: {
