@@ -9,7 +9,7 @@
         @keyup.enter="searchCharacter"
       />
       <font-awesome-icon
-        :icon="['fa', 'magnifying-glass']"
+        icon="fa-solid fa-magnifying-glass"
         class="absolute left-4 top-1/2 translate-y-[-50%] text-rose-300 peer-focus:text-rose-500"
       />
     </div>

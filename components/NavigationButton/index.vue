@@ -1,11 +1,11 @@
 <template>
   <div class="pt-5 flex w-full gap-3">
     <button class="hover:text-rose-500" @click="goBack">
-      <font-awesome-icon :icon="['fa', 'arrow-left']" class="mr-2" />Back
+      <font-awesome-icon icon="fa-solid fa-arrow-left" class="mr-2" /> Back
     </button>
     /
     <button class="hover:text-rose-500" @click="goHome">
-      <font-awesome-icon :icon="['fa', 'house']" /> Home
+      <font-awesome-icon icon="fa-solid fa-house" /> Home
     </button>
   </div>
 </template>
