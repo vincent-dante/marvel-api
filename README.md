@@ -22,6 +22,6 @@ To Run this project locally.
 1. Create .env file in the root directory folder.
 2. Add the environment variables PUBLIC_API_KEY= and put your public api key from https://developer.marvel.com/.
 
-    Ex. PUBLIC_API_KEY=fcab61d7fc557c844c9371779999
+    - Ex. PUBLIC_API_KEY=fcab61d7fc557c844c9371779999
 3. yarn install
 4. yarn dev
